@@ -1,0 +1,6 @@
+# Nmap:
+–p- (mencari semua port)
+-Pn (No Ping / Skip Host Discovery / hidden port)
+-sn (hanya mencari host yang aktif)
+-sV (service deteksi)
+-sS (skip SYNK/scan lebih cepat)
