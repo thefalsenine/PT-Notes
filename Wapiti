@@ -1,0 +1,2 @@
+# Wapiti
+Wapiti –u http://192.168.9.19/filetest.php?path=test –m file (mencari celah kerentanan pada path yg dicurigai)
