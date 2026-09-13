@@ -1,0 +1,4 @@
+# Reverse Shell:
+/usr/share/webshells/php/php-reverse-shell.php (lokasi file pada kali)
+Nc –lvnp 4444 (listening reverse shell port 4444)
+Atau pakai webshell.php, yang saat dipanggil filenya langsung muncul kolom command injection.
