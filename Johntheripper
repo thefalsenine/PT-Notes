@@ -1,0 +1,3 @@
+# Johntheripper
+john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
+john --show hash.txt
