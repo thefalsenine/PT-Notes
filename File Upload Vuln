@@ -1,0 +1,5 @@
+# File Upload Vuln:
+Ubah content-type ke image/png / image/jpg
+Ubah ekstensi file ke png/jpg/phtml/phar
+Rename file ke phtml/phar baru upload
+Cari lokasi path file yg berhasil diupload dan klik utk dieksekusi
