@@ -1,0 +1,6 @@
+# ffuf
+Ffuf –u <url-target> -w /usr/share/wordlists/dirb/common.txt
+-e (untuk mencari ekstensi file tertentu)
+-mc (untuk menampilkan code status tertentu)
+-fc (tidak menamilkan code status tertentu)
+-fs <ukuran file> (menampilkan size file tertentu)
