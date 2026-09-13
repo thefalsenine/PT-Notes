@@ -1,0 +1,6 @@
+# ssh
+/home/user/.ssh/id_rsa (lokasi file private key)
+Kemudian copy dengan curl agar hasilnya bagus:
+Curl (paste key nya) 
+Kemudian login dengan key tsb ssh user@(iptarget) –i key
+History (melihat command yg pernah dijalankan)
