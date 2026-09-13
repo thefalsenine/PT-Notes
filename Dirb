@@ -1,0 +1,3 @@
+# Dirb
+dirb <target> /usr/share/wordlists/dirb/common.txt
+cari di dirb jika dirsearch tidak ketemu. Karena dirb melakukan recrusive scanning folder.
