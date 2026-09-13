@@ -1,2 +1,20 @@
 # Nuclei
 Nuclei –i <iptarget> -t <template dast vulnerabilities) –dast
+
+
+Rekomend RCE/File Upload Vuln:
+-	Izinkan hanya ekstensi file tertentu.
+-	Validasi mime type, magic bytes, ukuran file, dan struktur file
+-	Simpan folder upload di luar fodler root
+-	Nonaktifkan script eksecuitoin pada folder upload
+
+Rekomend bypass SQLi
+-	Validasi input di sisi server dan tampilkan pesan eror agar tidak bisa dibedakan
+-	Gunakan parameterized query / prepared statement untuk seluruh query ke basis data
+-	Jgn tampilkan pesan eror ke enduser.
+
+Rekomend XSS:
+-	Konfigurasi cookie sesi dengan httponly, secure, samesite=lax/stirict agar tdk dapat dicuri dgn java script.
+-	Terapkan output encoding html entity
+-	Sanitasi input di sisi server.
+-	Terapkan CSP
