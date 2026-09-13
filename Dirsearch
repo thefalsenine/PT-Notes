@@ -1,0 +1,6 @@
+# Dirsearch
+Dirsearch –u <url-target-plus-port> (perhatikan target menggunakan port atau tidak)
+-i 200,301 (hanya menampilkan code 200 dan 301)
+-e (mencari ekstensi file)
+-r (mencari recrusive folder maksimal 2 level)
+--deep-recursive (mencari folder lebih dr 2 level)
