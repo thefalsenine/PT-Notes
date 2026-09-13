@@ -1,0 +1,4 @@
+# Command injection
+ping 8.8.8.8; (memisahkan command 1 dan 2)
+jika saat memasukkan ls eror, gunakan new line/enter, untuk command injection
+id/whoami/pwd (cek pertama saat masuk ke shell)
