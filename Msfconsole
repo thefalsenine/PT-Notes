@@ -1,0 +1,9 @@
+# Msfconsole:
+Show payloads (melihat payload yg compatible)
+Show options (melihat konfigurasi LHOST, LPORTdll)
+Set LHOSTS (setting IP listener / kali linux)
+Set LPORT (setting port listener / kali linux)
+Set RHOSTS (setting IP target)
+Set RPORT (setting IP Target)
+Run/exploit (menjalankan exploit)
+Back (kembali)
