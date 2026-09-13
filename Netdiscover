@@ -1,0 +1,2 @@
+# Netdiscover:
+netdiscover -r 192.168.9.0/24 (mencari host 1 segmen jaringan)
